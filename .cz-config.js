@@ -4,16 +4,12 @@ module.exports = {
 
   types: [
     {
-      value: 'WIP',
-      name : '💪 WIP:      Work in progress'
-    },
-    {
       value: 'feat',
-      name : '✨ :sparkles: feat:     A new feature'
+      name : '✨  feat:     A new feature'
     },
     {
       value: 'fix',
-      name : ':bug:  fix:      A bug fix'
+      name : '🐞  fix:      A bug fix'
     },
     {
       value: 'refactor',
@@ -38,7 +34,11 @@ module.exports = {
     {
       value: 'revert',
       name : '⏪  revert:   Revert to a commit'
-    }
+    },
+    {
+        value: 'WIP',
+        name : '💪  WIP:      Work in progress'
+    },
   ],
 
   scopes: [],
