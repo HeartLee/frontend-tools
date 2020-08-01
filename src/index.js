@@ -1,7 +1,8 @@
-import './css/index.css';
-import $ from 'jquery';
-console.log($, '$')
-if (module.hot) {
-  // 实现热更新
-  module.hot.accept();
-}
+import React from 'react'
+import ReactDOM from 'react-dom';
+import App from './app.jsx';
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);

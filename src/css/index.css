@@ -2,7 +2,11 @@
   background: red;
   width: 100px;
   height: 200px;
+  filter: grayscale(0.5);
 }
 .first-name {
   transform: rotate3d(0,-1,1);
+}
+.App-header {
+  background: pink;
 }
