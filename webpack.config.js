@@ -1,6 +1,7 @@
 let path = require('path');
 let HtmlWebpackPlugin = require('html-webpack-plugin');
 let MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HelloWorldPlugin = require('./src/plugins/hello');
 let webpack = require('webpack');
 
 const isBuild = process.env.NODE_ENV === 'production'
@@ -56,7 +57,8 @@ module.exports = {
       filename: isBuild ? '[name].[hash].css' : 'static/[name].css',
       chunkFilename: "[id].css"
     }),
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new HelloWorldPlugin({ test: true })
   ],
   devServer: {
     contentBase: './dist',
