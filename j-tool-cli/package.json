@@ -1,0 +1,25 @@
+{
+  "name": "j-tool",
+  "version": "1.0.0",
+  "description": "jose tool sth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeartLee/frontend-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeartLee/frontend-tools/issues"
+  },
+  "homepage": "https://github.com/HeartLee/frontend-tools#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0"
+  }
+}
