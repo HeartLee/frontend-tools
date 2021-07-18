@@ -1,6 +1,6 @@
 {
-  "name": "j-tool",
-  "version": "1.0.0",
+  "name": "j-tool-cli",
+  "version": "1.0.2",
   "description": "jose tool sth",
   "main": "index.js",
   "scripts": {
